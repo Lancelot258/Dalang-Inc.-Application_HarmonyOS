@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:id="$+id:root_layout"
+                   ohos:background_element="#0aaaaa"
+                   ohos:height="match_parent"
+                   ohos:width="match_parent"
+                   ohos:orientation="vertical">
+    <DependentLayout
+        ohos:id="$+id:app_content"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:background_element="#FFE97F7F"
+        ohos:start_margin="1vp">
+        <ScrollView
+            ohos:id="$+id:grid_layout"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:align_parent_top="true"
+            ohos:background_element="#FFD49696"
+            ohos:bottom_margin="10vp"
+            >
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="vertical">
+                <DirectionalLayout
+                    ohos:id="$+id:table_layout_up"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="vertical">
+                    <org.askerov.dynamicgrid.GridView
+                        ohos:id="$+id:grid_view_up"
+                        ohos:height="match_content"
+                        ohos:width="match_parent"
+                        ohos:bottom_margin="4vp"
+                        ohos:end_margin="2vp"
+                        ohos:start_margin="5vp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+        </ScrollView>
+
+    </DependentLayout>
+
+</DirectionalLayout>

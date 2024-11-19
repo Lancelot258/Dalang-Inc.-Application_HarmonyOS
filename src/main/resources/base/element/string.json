@@ -1,0 +1,116 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "大朗陵园"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "picspageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "picspageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PicsPageAbility",
+      "value": "entry_PicsPageAbility"
+    },
+    {
+      "name": "picspageabilityslice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "picspageabilityslice_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PicsPageAbilitySlice",
+      "value": "entry_PicsPageAbilitySlice"
+    },
+    {
+      "name": "databaseability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "controlability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "controlability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ControlAbility",
+      "value": "entry_ControlAbility"
+    },
+    {
+      "name": "settingslice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "settingslice_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Settingslice",
+      "value": "entry_Settingslice"
+    },
+    {
+      "name": "pagecategorymanageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "pagecategorymanageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PageCategoryManageAbility",
+      "value": "entry_PageCategoryManageAbility"
+    },
+    {
+      "name": "picshowpageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "picshowpageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PicShowPageAbility",
+      "value": "entry_PicShowPageAbility"
+    },
+    {
+      "name": "mangepageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mangepageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MangePageAbility",
+      "value": "entry_MangePageAbility"
+    },
+    {
+      "name": "pagemanagepageabilityslice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "pagemanagepageabilityslice_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PageManagePageAbilitySlice",
+      "value": "entry_PageManagePageAbilitySlice"
+    }
+  ]
+}

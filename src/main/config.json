@@ -1,0 +1,115 @@
+{
+  "app": {
+    "bundleName": "com.uestc.dalangapp",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.uestc.dalangapp",
+    "name": ".MyApplication",
+    "mainAbility": "com.uestc.dalangapp.MainAbility",
+    "deviceType": [
+      "tablet"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "picSlice"
+            ]
+          }
+        ],
+        "name": "com.uestc.dalangapp.MainAbility",
+        "description": "$string:mainability_description",
+        "icon": "$media:LOGO",
+        "label": "$string:entry_MainAbility",
+        "launchType": "standard",
+        "orientation": "landscape",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.uestc.dalangapp.DataBaseAbility",
+        "description": "$string:databaseability_description",
+        "type": "data",
+        "uri": "dataability://com.uestc.dalangapp.DataBaseAbility",
+        "icon": "$media:icon",
+        "readPermission": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "com.uestc.dalangapp.PageCategoryManageAbility",
+        "description": "$string:pagecategorymanageability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_PageCategoryManageAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.uestc.dalangapp.MangePageAbility",
+        "description": "$string:mangepageability_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_MangePageAbility",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      },
+      {
+        "name": "com.uestc.dalangapp.PageManagePageAbilitySlice",
+        "description": "$string:pagemanagepageabilityslice_description",
+        "icon": "$media:icon",
+        "label": "$string:entry_PageManagePageAbilitySlice",
+        "launchType": "standard",
+        "orientation": "unspecified",
+        "visible": true,
+        "type": "page"
+      }
+    ],
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "extra": "",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar.Fullscreen"
+        }
+      ]
+    },
+    "defPermissions": [
+      {
+        "name": "com.uestc.dalangApp.DataAbilityShellProvider.PROVIDER"
+      },
+      {
+        "name": "com.uestc.dalangapp.DataAbilityShellProvider.PROVIDER"
+      }
+    ]
+  }
+}

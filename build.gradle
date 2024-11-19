@@ -1,0 +1,74 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\ps\\.ohos\\config\\auto_debug_dalangapp_80086000026985616.p12')
+            storePassword '0000001A5FAC4F9B051831BDE43186EA14E40CC533847D5F23F57CCF7E6E575694F647D4F21FD111297F'
+            keyAlias = 'debugKey'
+            keyPassword '0000001A0907C0452CB29F6820880A9280C745578956207E8B57085D46F25CED3F2F37799C6C77EF2D74'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\ps\\.ohos\\config\\auto_debug_dalangapp_80086000026985616.p7b')
+            certpath file('C:\\Users\\ps\\.ohos\\config\\auto_debug_dalangapp_80086000026985616.cer')
+        }
+        release {
+            storeFile file('E:\\web\\Projects\\dalangApp\\dalangApp.p12')
+            storePassword '0000001A760BFAA194F13D0667B65751DF91255262E1D8E63572A5D80B899F11CBC8CB95542C43FB9AE1'
+            keyAlias = 'dalangMatePad'
+            keyPassword '0000001ABFDA060E9F6182ECF83B30C29B2A47806A6831CD4500F8A1094B35E1E31C0A8636514CD39966'
+            signAlg = 'SHA256withECDSA'
+            profile file('E:\\web\\Projects\\dalangApp\\大朗陵园Debug.p7b')
+            certpath file('E:\\web\\Projects\\dalangApp\\dalangApp.cer')
+        }
+    }
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 6
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 6
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+    compileOptions {
+        annotationEnabled true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har', 'rawfile'])
+    testImplementation 'junit:junit:4.13.1'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:2.0.0.200'
+    // Add dependencies.
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
+    compile files("E:\\web\\HarmonyOS\\Sdk\\java\\3.0.0.1\\build-tools\\lib\\orm_annotations_java.jar",
+            "E:\\web\\HarmonyOS\\Sdk\\java\\3.0.0.1\\build-tools\\lib\\orm_annotations_processor_java.jar",
+            "E:\\web\\HarmonyOS\\Sdk\\java\\3.0.0.1\\build-tools\\lib\\javapoet_java.jar")
+    annotationProcessor files("E:\\web\\HarmonyOS\\Sdk\\java\\2.2.0.3\\build-tools\\lib\\orm_annotations_java.jar",
+            "E:\\web\\HarmonyOS\\Sdk\\java\\3.0.0.1\\build-tools\\lib\\orm_annotations_processor_java.jar",
+            "E:\\web\\HarmonyOS\\Sdk\\java\\3.0.0.1\\build-tools\\lib\\javapoet_java.jar")
+    implementation 'org.jetbrains:annotations:13.0'
+    implementation 'io.openharmony.tpc.thirdlib:glide:1.1.2'
+}
+decc {
+    supportType = ['html', 'xml']
+}
+
+// Add the information to the bottom of the file.
+apply plugin: 'com.huawei.agconnect'

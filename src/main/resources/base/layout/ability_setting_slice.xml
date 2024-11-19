@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:background_element="$media:background"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:top_margin="7vp"
+        ohos:id="$+id:exit_button"
+        ohos:height="36vp"
+        ohos:width="36vp"
+        ohos:background_element="$media:back"
+        ohos:layout_alignment="left|top"
+        ohos:italic="true"/>
+
+    <Text
+        ohos:id="$+id:title_infor"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:top_margin="70vp"
+        ohos:text="后台管理"
+        ohos:text_size="48fp"
+        ohos:text_color="#FF3C0505"
+        ohos:layout_alignment="center"/>
+
+    <StackLayout
+        ohos:id="$+id:setting_input_stack_layout"
+        ohos:top_margin="0vp"
+        ohos:width="match_parent"
+        ohos:height="250vp"
+        ohos:layout_alignment="center">
+        <TextField
+            ohos:id="$+id:name_textField"
+            ohos:top_margin="0vp"
+            ohos:width="320vp"
+            ohos:height="match_content"
+            ohos:multiple_lines="false"
+            ohos:left_padding="24vp"
+            ohos:right_padding="24vp"
+            ohos:top_padding="8vp"
+            ohos:bottom_padding="8vp"
+            ohos:min_height="44vp"
+            ohos:text_size="18fp"
+            ohos:layout_alignment="center"
+            ohos:text_alignment="vertical_center"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:hint="输入账号"
+            />
+        <TextField
+            ohos:top_margin="100vp"
+            ohos:id="$+id:password_text_field"
+            ohos:width="320vp"
+            ohos:height="match_content"
+            ohos:multiple_lines="false"
+            ohos:left_padding="24vp"
+            ohos:right_padding="24vp"
+            ohos:top_padding="8vp"
+            ohos:bottom_padding="8vp"
+            ohos:min_height="44vp"
+            ohos:text_size="18fp"
+            ohos:layout_alignment="center"
+            ohos:text_alignment="vertical_center"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:hint="输入密码" />
+        <Text
+            ohos:visibility="hide"
+            ohos:id="$+id:error_tip_text"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_padding="8vp"
+            ohos:bottom_padding="8vp"
+            ohos:right_margin="220vp"
+            ohos:text="Incorrect account or password"
+            ohos:text_size="18fp"
+            ohos:text_color="red"
+            ohos:layout_alignment="right"/>
+
+    </StackLayout>
+
+
+
+    <Button
+        ohos:top_margin="100vp"
+        ohos:id="$+id:ensure_button"
+        ohos:width="120vp"
+        ohos:height="40vp"
+        ohos:background_element="$graphic:background_btn"
+        ohos:text="登录"
+        ohos:text_size="25fp"
+        ohos:layout_alignment="horizontal_center"/>
+
+</DirectionalLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    ohos:id="$+id:sl_showPicsSlice_4"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+
+    ohos:orientation="vertical">
+
+    <PageSlider
+        ohos:id="$+id:pageslider_showpic_slice_4"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$media:background"
+        />
+    <DependentLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        >
+        <Button
+            ohos:id="$+id:idBtnBack_4"
+            ohos:height="35vp"
+            ohos:width="45vp"
+            ohos:margin="7vp"
+            ohos:background_element="$media:back"
+            ohos:layout_alignment="left|top"
+            />
+
+    </DependentLayout>
+
+
+
+</StackLayout>

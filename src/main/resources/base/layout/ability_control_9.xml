@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#ff0000"
+    ohos:left_margin="100vp"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            >
+
+            <TableLayout
+                ohos:id="$+id:con2_tablelayout"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:column_count="10"
+                ohos:orientation="vertical"
+                ohos:padding="8vp"
+                ohos:row_count="2">
+
+                <StackLayout
+                    ohos:id="$+id:con2_skl1"
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="4vp">
+
+                    <Image
+                        ohos:id="$+id:con2_delete1"
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="6vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="4vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="6vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="4vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="6vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="4vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="6vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="4vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+
+                <StackLayout
+                    ohos:height="293vp"
+                    ohos:width="293vp"
+                    ohos:background_element="$media:icon"
+                    ohos:right_margin="4vp"
+                    ohos:top_margin="6vp">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:icon"
+                        ohos:layout_alignment="right|top"
+                        ohos:scale_mode="clip_center"
+                        />
+                </StackLayout>
+            </TableLayout>
+        </DirectionalLayout>
+
+    </ScrollView>
+
+
+</DirectionalLayout>

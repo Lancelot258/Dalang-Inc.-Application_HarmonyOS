@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   xmlns:app="http://schemas.ohos.com/apk/res-auto"
+                   ohos:id="$+id:root_layout"
+                   ohos:height="match_parent"
+                   ohos:width="match_parent"
+                   ohos:orientation="horizontal">
+
+<TabList
+    ohos:id="$+id:tab_mange_data_list"
+    ohos:height="match_parent"
+    ohos:width="100vp"
+    ohos:background_element="#ffffff"
+    ohos:layout_alignment="left"
+    ohos:normal_text_color="#888888"
+    ohos:selected_text_color="#0aabbc"
+    ohos:selected_tab_indicator_color="#0aabbc"
+    ohos:tab_indicator_type="bottom_line"
+    ohos:selected_tab_indicator_height="2vp"
+    ohos:text_size="20fp"
+    ohos:text_alignment="center"
+    ohos:fixed_mode="true"
+    ohos:orientation="vertical"
+    />
+
+<org.askerov.dynamicgrid.DragGridView
+    ohos:id="$+id:manage_data_gridView"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+</org.askerov.dynamicgrid.DragGridView>
+<Image
+    ohos:id="$+id:test_image"
+    ohos:height="24vp"
+    ohos:width="24vp"
+    ohos:layout_alignment="top|right"
+    ohos:image_src="$media:background"
+    ohos:visibility="hide"
+    />
+</DirectionalLayout>
